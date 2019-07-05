@@ -12,7 +12,7 @@ public class WindSocketServer {
     public static void main(String[] args){
         try {
             // 创建服务端socket
-            ServerSocket serverSocket = new ServerSocket(8080);
+            ServerSocket serverSocket = new ServerSocket(8888);
 
             // 创建客户端socket
             Socket socket = new Socket();

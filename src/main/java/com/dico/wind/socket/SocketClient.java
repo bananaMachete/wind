@@ -11,7 +11,7 @@ public class SocketClient {
     public static void main(String[] args) throws InterruptedException {
         try {
             // 和服务器创建连接
-            Socket socket = new Socket("localhost",8080);
+            Socket socket = new Socket("localhost",8888);
 
             // 要发送给服务器的信息
             OutputStream os = socket.getOutputStream();
